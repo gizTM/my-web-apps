@@ -1,0 +1,63 @@
+.flex {
+  display: flex;
+}
+#content {
+  /* display: flex; */
+}
+#map {
+  width: 100%;
+  height: 500px;
+}
+#content > div {
+  display: block;
+}
+textarea {
+  display: block;
+  width: 100%;
+}/* 
+.marker-icon svg {
+  fill: attr(data-color);   
+} */ 
+.marker-icon {
+  position: relative;
+}
+.marker-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  top: 15px;
+  left: 10px;
+  width: 30px;
+  height: 20px;
+  color: white;
+}
+.marker-red svg {
+  fill: red;   
+} 
+.marker-red .marker-label {
+  background: red;   
+} 
+.marker-green svg {
+  fill: green;   
+}
+.marker-green .marker-label {
+  background: green;   
+} 
+.marker-blue svg {
+  fill: blue;   
+} 
+.marker-blue .marker-label {
+  background: blue;   
+} 
+.marker-purple svg {
+  fill: purple;   
+} 
+.marker-purple .marker-label {
+  background: purple;   
+} 
+.marker-pink svg {
+  fill: pink;   
+} 
+.marker-pink .marker-label {
+  background: pink;   
+} 

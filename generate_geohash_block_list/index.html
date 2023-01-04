@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+        <!-- <script type="module" src="geohashUtil.js"></script> -->
+        <script src="geohashUtil.js"></script>
+    </head>
+    <body>
+        <div id="content">
+          <div id="input-container">
+          <button id="clear-hash-block">
+            Clear hash block
+          </button>
+          <button id="satellite-layout">Sattellite layout</button><button id="normal-layout">Normal layout</button>
+            <div id="nw-input" class="flex geo-input">
+              <div>From: </div>
+              <input id="nw-latitude" placeholder="nw latitude" />
+              <input id="nw-longitude" placeholder="nw longitude" />
+              <div id="nw-hash"></div>
+            </div>
+            <div id="se-input" class="flex geo-input">
+              <div>To: </div>
+              <input id="se-latitude" placeholder="se latitude" />
+              <input id="se-longitude" placeholder="se longitude" />
+              <div id="se-hash"></div>
+            </div>
+          </div>
+          <div>
+            <div>digit: </div>
+            <input id="hash-digit" type="number" placeholder="hash digit" />
+          </div>
+          <button id="lock">Can click on map, click me!</button>
+          
+          <button id="check">Show in map</button>
+          <button id="show-result">Download JSON</button>
+        </div>
+        <div id="map"></div>
+        <div id="loader-container" style="display:none;">
+          <div class="loader"></div>
+        </div>
+        <script src="index.js"></script>
+      </body>
+</html>
