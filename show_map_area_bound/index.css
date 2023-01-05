@@ -1,0 +1,31 @@
+.leaflet-container .leaflet-control-attribution {
+  max-width: 75%;
+}
+.flex {
+  display: flex;
+}
+.inline {
+  display: inline;
+}
+#content {
+  /* display: flex; */
+}
+#province-input {
+  width: 200px;
+}
+#map {
+  width: 100%;
+  height: 500px;
+}
+.geo-input {
+  margin: 5px 15px;
+}
+.geo-input > div:first-child {
+  width: 70px;
+}
+.vertical-separator {
+  border-right: 1px solid #888;
+}
+#show-bound-btn + .vertical-separator {
+  margin: 0 30px;
+}

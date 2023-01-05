@@ -15,3 +15,10 @@ collection of my web-based application with supposedly useful function for devel
 - can be used for data mocking for location map application
 ![generate-geohash-normal](generate-geohash-normal.png)
 ![generate-geohash-satellite](generate-geohash-satellite.png)
+
+## Show map area bound
+
+- show list of province in thailand
+- can see province bound (fixed pan) on map on selection
+![show-map-area-bound-normal](show-map-area-bound-normal.png)
+![show-map-area-bound-satellite](show-map-area-bound-satellite.png)
