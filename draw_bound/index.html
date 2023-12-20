@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <div id="content">
+          <div id="input-container">
+          <button id="satellite-layout">Sattellite layout</button><button id="normal-layout">Normal layout</button>
+            <div id="nw-input" class="flex geo-input">
+              <div>From: </div>
+              <input id="nw-latitude" placeholder="nw latitude" />
+              <input id="nw-longitude" placeholder="nw longitude" />
+            </div>
+            <div id="se-input" class="flex geo-input">
+              <div>To: </div>
+              <input id="se-latitude" placeholder="se latitude" />
+              <input id="se-longitude" placeholder="se longitude" />
+            </div>
+          </div>
+          <button id="check">Show in map</button>
+        </div>
+        <div id="map"></div>
+        <div id="loader-container" style="display:none;">
+          <div class="loader"></div>
+        </div>
+        <script src="index.js"></script>
+      </body>
+</html>

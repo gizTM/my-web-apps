@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <div id="content">
+          <div id="input-container">
+          <button id="satellite-layout">Sattellite layout</button><button id="normal-layout">Normal layout</button>
+            <div id="nw-input" class="flex geo-input">
+              <div>Latlng list: </div>
+              <!-- <textarea id="latlng-list" placeholder="latlng list">[[13.757329, 100.472747], [13.757155, 100.472652], [13.757362, 100.472628], [13.75727, 100.472534]]</textarea> -->
+              <textarea id="latlng-list" placeholder="latlng list">               
+                [
+                [13.757397911841258,100.47270309139961],
+                [13.757308627079663,100.4726085574625],
+                [13.757358251095614,100.47256257673654],
+                [13.757445794292499,100.47265227904536]
+                ]
+              </textarea>
+            </div>
+          </div>
+          <button id="check">Show in map</button>
+        </div>
+        <div id="map"></div>
+        <div id="loader-container" style="display:none;">
+          <div class="loader"></div>
+        </div>
+        <script src="index.js"></script>
+      </body>
+</html>
